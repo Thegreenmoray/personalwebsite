@@ -15,7 +15,7 @@ function Startpage() {
             setCount(0)
         }
     }
-   const [blogs] = useState(["fff","cf","qwe"])
+   //const [blogs] = useState(["fff","cf","qwe"]) //placeholders
 
 
     return (
@@ -33,10 +33,6 @@ function Startpage() {
                     " The goofiness of the " +
                     "eel poking their head out made me fall in love with them. They became my favorite animal. And that's why I called myself " +
                     "thegreenmoray on GitHub."}</p></>}
-            {blogs.map((blog,index)=>(
-                <p key={index}>{blog}</p>
-            ))}
-
         </div>
 
     )
