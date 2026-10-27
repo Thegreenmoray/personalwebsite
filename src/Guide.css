@@ -1,0 +1,9 @@
+.guide-list {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    font-family: Times-New-Roman,Times, serif;
+}

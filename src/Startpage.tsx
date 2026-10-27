@@ -15,7 +15,7 @@ function Startpage() {
             setCount(0)
         }
     }
-   //const [blogs] = useState(["fff","cf","qwe"]) //placeholders
+   
 
 
     return (
